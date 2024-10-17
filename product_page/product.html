@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="product.css">
+  <title>Product_page</title>
+</head>
+<body>
+  <nav>
+    <a href="/amazon.html">
+    <img src="/amazon_clone_img/assets/amazon_logo.png" width="100" alt="amazon_logo" style="margin-top: 0.5rem;">
+    </a>
+     <div class="nav-search">
+          <div class="nav-search-category">
+             <p>ALL</p>
+             <img src="/amazon_clone_img/assets/dropdown_icon.png" class="nav-dropdown">
+          </div>
+          <input placeholder="Search" type="text" class="nav-search-input">
+          <button class="nav-search-button"><img src="/amazon_clone_img/assets/search_icon.png" class="nav-search-button-link" ></button>
+     </div>
+        <div class="nav-sign-in"> 
+          <span>Hello,sign in</span>
+          <h3>Account & Lists <img src="/amazon_clone_img/assets/dropdown_icon.png"height="8px" width="8px" style="padding-top:2px;"></h3>
+
+        </div>
+        <div class="nav-orders"> 
+         <span>Returns</span>
+         <h4 >& Orders</h4>
+        </div>
+          <a href="cart.html" class="profile-icon"><img src="/user.png" width="20px"> </a>
+          <a href="cart.html" class="nav-cart"><img src="/amazon_clone_img/assets/cart_icon.png" ><h3>Cart</h3></a>
+  </nav>
+ <div class="nav-bottom">
+     <div class="nav-menu-bar"><img src="/amazon_clone_img/assets/menu_icon.png" width="20px" ><p>All</p></div>
+     <ul class="nav-bottom-sub-menu">
+       <a><li>Today's Deals</li></a> 
+       <a><li>Customer Service</li></a>
+       <a><li>Registery</li></a>
+       <a><li>Gift Card</li></a>
+       <a><li>Sell</li></a>
+     </ul>
+ </div>
+
+     <!-- product whole page  -->
+      <p class="breadcrum">Video Game > PC > Headset</p>
+      <div class="product-display">
+          <div class="product-l-image">
+             <div class="product-icon">
+               <img src="/amazon_clone_img/assets/product_img.jpg">
+               <img src="/amazon_clone_img/assets/product_img.jpg">
+               <img src="/amazon_clone_img/assets/product_img.jpg">
+               <img src="/amazon_clone_img/assets/product_img.jpg">
+               <img src="/amazon_clone_img/assets/product_img.jpg">
+             </div>
+             <div class="product-main-img">
+              <div class="img"> <img src="/amazon_clone_img/assets/product_img.jpg" width="100%"></div>
+              
+              
+               <div class="product-details">
+                 <p class="product-heading">
+                  BENGOO G900 Stereo Gaming Headset for ps4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphone with Mic, LED Light, Bass Surround, Soft Memory Earmuffs (Blue)
+                 </p>
+                 <div class="product-sub-detail1">
+                   <p>Visit the BENGOO Store</p>
+                   <P class="star"><span>4.3</span><img src="/amazon_clone_img/assets/rating_img.png" width="50px">  104,185 rating  |  Search this page</P>
+                   <p class="bestseller"><span>#1 Best Seller</span> in PC Game Headsets</p>
+                   <p style="color: black; margin-bottom: 1rem;">10K+ bought in past month</p>
+                   <hr>
+                 </div>
+                  <div class="product-sub-detail2">
+                    <p class="product-price"><span> -84% </span>$349</p>
+                    <p>M.R.P : <del>$499</del></p>
+                    <p>Inclusive of all taxes</p>
+                    <p><h4 style="display: inline-block;">EMI </h4> Starts at $5 per month</p>
+                    <p style="margin-top:3px;" class="aqua">FREE Returns</p>
+                    <p>Available at lower price from other seller that may not offer free shipping</p>
+                    <p class="selected-color">Color : <Span class="selected-color-x">BLUE</Span></p>
+
+                    <div class="product-icon-2">
+
+                      <div onclick="changeText(this)"><img src="/amazon_clone_img/assets/product_img.jpg"><p class="colorName">BLUE</p> </div>
+
+                      <div onclick="changeText(this)"><img src="/amazon_clone_img/assets/product_img.jpg"><p class="colorName" >PINK</p> </div>
+                      
+                      <div onclick="changeText(this)"><img src="/amazon_clone_img/assets/product_img.jpg"><p class="colorName">GREEN</p> </div>
+                      
+                      <div onclick="changeText(this)"><img src="/amazon_clone_img/assets/product_img.jpg"><p class="colorName">BLACK</p> </div>
+                      
+                      <div onclick="changeText(this)"><img src="/amazon_clone_img/assets/product_img.jpg"><p class="colorName">RED</p> </div>
+                    </div> 
+
+                  </div>
+               </div>
+                 <div class="product-r-image">
+                     <p class="product-r-image-price">$25.99</p>
+                     <p>Get <span class="bold">FREE Shipping</span></p>
+                     <p><span class="aqua"> FREE delivery </span><span class="bold"> Saturday </span> on order shipped by over $35</p>
+                     <p>Get Fastest delivery <span class="bold">Tomorrow </span>Order within <span class="aqua">10hrs 56mins</span></p>
+                     <div class="all-button">
+                      <select>
+                        <option disabled selected>Quantity</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                      <button >Add to cart</button>
+                      <button>Buy Now</button>
+                     </div>
+                     <p style="margin-bottom: 1px;"><img src="/amazon_clone_img/assets/location_icon_dark.png" width="13px"></p>
+                     <div class="aqua">Deliver to New York 10014</div>
+                     
+                 </div>
+             </div>
+             <!-- ---include right side here-- -->
+
+          </div>
+       
+
+      </div>
+      <script src="/js/script.js"></script>
+</body>
+</html>
