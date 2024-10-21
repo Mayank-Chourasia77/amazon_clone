@@ -11,6 +11,7 @@
 }
 .product-img{
    width: 100%;
+   height: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -19,6 +20,9 @@
   padding: 10px;
   width: 90%;
 }
+ .product-description{
+  max-height:120px ;
+ }
 .product-review{
   width: 100%;
   padding-top: 5px;
