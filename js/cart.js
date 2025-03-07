@@ -1,3 +1,4 @@
+
 const products= [{
     img:'/amazon_clone_img/assets/acer_laptop.jpg',
     name:'Acer Nitro V Gaming Laptop 13th Gen Intel Core i5-13420H with RTX 4050 Graphics 6GB VRAM, 144Hz Display (16GB DDR5/512GB SSD)',
@@ -127,5 +128,8 @@ let Product_html = '';
                quantity : 1
             })
           }
+          let cartqunatity = productCart.length;
+          document.querySelector('.cart-item-no').innerHTML=cartqunatity;
+
     });
  });

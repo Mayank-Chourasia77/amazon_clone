@@ -79,7 +79,8 @@ nav{
   background-color: transparent;
 }
 .nav-sign-in{
-   margin-inline: 2% ;
+   margin-right: 1.5%;
+   margin-left: 3%;
    display: inline-block;
    cursor: pointer;
 }
@@ -91,13 +92,22 @@ nav{
   cursor: pointer;
 }
 .nav-cart{
+  position: relative;
    display: flex;
    /* align-items: flex-end; */
-   margin: 0 15px;
+   margin: 0 15px 0 10px;
 }
 .nav-cart img {
+  position: relative;
   height: 30px;
   padding-bottom: 5px;
+}
+.cart-item-no{
+  color: orange;
+  position: absolute;
+  bottom: 15px;
+  left: 18px;
+
 }
 .nav-cart h3{
   padding-top:10px ;

@@ -30,12 +30,12 @@
          <h4 >& Orders</h4>
         </div>
           <a href="cart.html" class="profile-icon"><img src="/user.png" width="20px"> </a>
-          <a href="cart.html" class="nav-cart"><img src="/amazon_clone_img/assets/cart_icon.png" ><h3>Cart</h3></a>
+          <a href="cart.html" class="nav-cart"><img src="/amazon_clone_img/icons/cart-icon.png" ><h3 class="cart-item-no">0</h3><h3>Cart</h3></a>
   </nav>
  <div class="nav-bottom">
      <div class="nav-menu-bar"><img src="/amazon_clone_img/assets/menu_icon.png" width="20px" ><p>All</p></div>
      <ul class="nav-bottom-sub-menu">
-       <a><li>Today's Deals</li></a> 
+       <a href="/cart_page/cart.html"><li>Today's Deals</li></a> 
        <a><li>Customer Service</li></a>
        <a><li>Registery</li></a>
        <a><li>Gift Card</li></a>
@@ -107,7 +107,7 @@
                         <option>4</option>
                         <option>5</option>
                       </select>
-                      <button >Add to cart</button>
+                      <button class="js-add-to-cart" data-product-name= "headphone">Add to cart</button>
                       <button>Buy Now</button>
                      </div>
                      <p style="margin-bottom: 1px;"><img src="/amazon_clone_img/assets/location_icon_dark.png" width="13px"></p>
@@ -121,6 +121,8 @@
        
 
       </div>
+      <script src="/js/checkout-cart.js"></script>
+      <script src="/js/cart.js"></script>
       <script src="/js/script.js"></script>
 </body>
 </html>

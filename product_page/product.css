@@ -1,5 +1,4 @@
 html,body {
-   font-size: 62.5%;
    width: 100%;
 }
 
@@ -9,6 +8,9 @@ html,body {
    box-sizing: border-box;
    transition: all ease;
    /* outline: 1px solid red; */
+}
+button{
+   cursor: pointer;
 }
 
 body{
